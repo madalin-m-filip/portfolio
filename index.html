@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Portfolio home page</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header>
+		<img src="assets/portrait.png" alt="portrait">
+		<h1>Mădălin  <a href="#skills">designs</a>  web interfaces and then brings them to life using <a href="#tools">front end technologies</a>.
+		<br>Welcome to his <a href="#portfolio">portfolio</a> and don't forget to say "<a href="#contact">hi!</a>".</h1>
+	</header>
+	<section>
+		<h2 id="skills"><span>S</span><span>K</span><span>I</span><span>L</span><span>L</span><span>S</span></h2>
+		<ul class="skills-list">
+			<li><span aria-hidden="true">{</span>Web design</li>
+			<li>Wireframing</li>
+			<li>Front end development</li>
+			<li>UX</li>
+			<li>Graphic manipulation</li>
+			<li>Prototyping<span aria-hidden="true">}</span></li>
+		</ul>
+	</section>
+	<section>
+		<h2 id="tools"><span>T</span><span>O</span><span>O</span><span>L</span><span>S</span></h2>
+		<ul class="tools-list">
+			<li><span aria-hidden="true">{</span>HTML</li>
+			<li>CSS</li>
+			<li>Photoshop</li>
+			<li>Git</li>
+			<li>Illustrator</li>
+			<li>Jquery<span aria-hidden="true">}</span></li>
+		</ul>
+	</section>
+	<section>
+		<h2 id="portfolio"><span>P</span><span>O</span><span>R</span><span>T</span><span>F</span><span>O</span><span>L</span><span>I</span><span>O</span></h2>
+		<div class="projects">
+			<div class="project" id="adicenter">
+				<a href="adicenter.html"><img class="adicenter" src="assets/adicenter-thumbnail.jpg" alt="project thumbnail image"></a>
+				<span class="adicenter">Go to project page</span>
+			</div>
+			<div class="project" id="photography">
+				<a href="photography.html"><img class="photography" src="assets/photography-thumbnail.jpg" alt="project thumbnail image"></a>
+				<span  class="photography">Go to project page</span>
+			</div>
+		</div>
+	</section>
+	<section>
+		<h2 id="contact"><span>C</span><span>O</span><span>N</span><span>T</span><span>A</span><span>C</span><span>T</span></h2>
+		<div>
+			<div class="social">
+				<a href="https://www.linkedin.com/in/madalin-morarasu-filip-3156a5125/" class="social-btn">Linkedin</a>
+				<a href="https://www.behance.net/madalinmfib672" class="social-btn">Behance</a>
+			</div>
+			<form action="https://formspree.io/madalin.m.filip@gmail.com" method="POST">
+				<label>Name: <input type="text" name="name" required></label>
+				<br>
+				<label>Email: <input type="email" name="_replyto" required></label>
+				<br>
+				<textarea name="message" id="" cols="30" rows="10" required></textarea>
+				<br>
+				<input type="submit" value="Send">
+			</form>
+		</div>
+	</section>
+	<footer>
+		<span>&copy; Mădălin Morăraşu-Filip</span>
+	</footer>
+</body>
+</html>
